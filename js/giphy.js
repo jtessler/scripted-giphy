@@ -1,8 +1,8 @@
-// Given a search query and callback function, fetch GIF images from Giphy.
+// Given a search query and callback function, fetch GIF images from GIPHY.
 //
-// The callback function much take a single argument, which stores the array of
-// all found GIF images. Each element of the array is an object with the
-// following properties:
+// The callback function must take a single argument, which is the array of all
+// found GIF images. Each element of the array is an object with the following
+// properties:
 //
 //   {
 //     type: "gif",
