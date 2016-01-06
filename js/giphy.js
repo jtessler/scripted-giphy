@@ -4,7 +4,7 @@
 // all found GIF images. Each element of the array is an object with the
 // following properties:
 //
-//  {
+//   {
 //     type: "gif",
 //     id: "FiGiRei2ICzzG",
 //     url: "http://giphy.com/gifs/funny-cat-FiGiRei2ICzzG",
