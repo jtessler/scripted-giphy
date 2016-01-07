@@ -47,7 +47,7 @@
 //   }
 //
 function getGiphyGifs(query, callback) {
-  var endpoint = "http://api.giphy.com/v1/gifs/search";
+  var endpoint = "https://api.giphy.com/v1/gifs/search";
   var parameters = {
     // Public beta API key.
     api_key: "dc6zaTOxFJmzC",
