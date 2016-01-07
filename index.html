@@ -1,14 +1,34 @@
 <html>
-  <head>
-    <!-- Bootstrap CSS. Remember the wireframing lesson? -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <!-- Giphy script (EDIT AT YOUR OWN RISK) -->
-    <script src="js/giphy.js"></script>
 
-    <!-- ADD YOUR JAVASCRIPT CODE/LINKS HERE -->
-  </head>
-  <body>
-  </body>
+<head>
+  <!-- Bootstrap CSS. Remember the wireframing lesson? -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Giphy script (EDIT AT YOUR OWN RISK) -->
+  <script src="js/giphy.js"></script>
+
+  <!-- ADD YOUR JAVASCRIPT CODE/LINKS HERE -->
+</head>
+
+<body>
+  <div class="container">
+    <h1>Giphy Search</h1>
+    <hr/>
+    <div class="well well-lg">
+      <div class="row">
+        <form id="query-form">
+          <div class="input-group">
+            <input type="text" id="query" class="form-control" placeholder="Search for GIFs!">
+            <span class="input-group-btn">
+            <button type="submit" class="btn btn-primary">Search</button>
+            </span>
+          </div>
+        </form>
+      </div>
+      <hr/>
+      <div id="search-results" class="row">
+      </div>
+    </div>
+</body>
 </html>
